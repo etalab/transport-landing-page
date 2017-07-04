@@ -4,29 +4,63 @@
     <meta charset="utf-8">
     <title>transport.beta.gouv.fr</title>
 <style>
+html {
+  height: 100%;
+}
+body {
+  background: url('static/station.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+}
 #content {
-   display: block;
-   margin: auto;
-   width: 40%;
-   font-family: "Century Gothic", "Gilles Sans", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  background: rgba(0,0,0,0.40);
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin: auto;
+  padding: 3em;
+  width: 60%;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-size: 1.2em;
 }
-#content > img {
-   margin-bottom: 100px;
-}
-#content > a {
+#content a {
    text-decoration: none;
-   color: #000;
-   font-size: 2em;
+   color: #fff;
 }
-#content > a:hover {
+#content a:hover {
    text-decoration: underline;
+}
+#content p {
+  margin-top: 2em;
+}
+.slack-inline {
+  height: 20px;
+}
+input {
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  width: 40%;
+  margin-top: 1em;
 }
 </style>
 </head>
 <body>
-<div id="content">
-<img src="transport.svg"/>
-<a href="https://join.slack.com/transportdatagouvfr/shared_invite/MjA2ODkzODQyOTk4LTE0OTg4MDUyNTktNmM2OWJmOGQwOA">Rejoignez-nous sur slack</a>
-</div>
+  <div id="content">
+    <img class="logo" alt="transport.beta.gouv.fr" src="static/logo.svg"/>
+    <p class="mailing-list">
+      <strong>Inscrivez-vous à la mailing-list de transport.beta.gouv.fr</strong>
+      <input type="text" placeholder="Adresse email" />
+    </p>
+    <p class="slack-invite">
+        <strong>
+          <a href="https://join.slack.com/transportdatagouvfr/shared_invite/MjA2ODkzODQyOTk4LTE0OTg4MDUyNTktNmM2OWJmOGQwOA">Rejoignez-nous sur Slack <img src="static/slack.png" class="slack-inline" alt="Slack" /></a>
+        </strong>
+    </p>
+    <p class="jobs">
+      <a href="https://beta.gouv.fr/recrutement/2017/07/03/transport-dev.html">Nous recrutons une développeuse / un développeur !</a>
+    </p>
+  </div>
 </body>
 </html>
