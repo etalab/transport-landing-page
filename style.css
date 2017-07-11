@@ -68,6 +68,7 @@ input {
 
 .response {
    font-size: 0.5em;
+   margin-right: 70px;
 }
 
 .input-container input, button {
