@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+}
+body {
+  background: url('static/station.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: #fff;
+}
+#content {
+  background: rgba(0,0,0,0.40);
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 3em;
+  width: 60%;
+  font-size: 1.5em;
+}
+a {
+   text-decoration: none;
+   color: #fff;
+}
+a:hover {
+   text-decoration: underline;
+}
+#content p {
+  margin-top: 2em;
+  min-height: 100%;
+}
+#body {
+  padding-bottom:60px; 
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+   padding: 1em;
+   box-sizing: border-box;
+}
+.slack-inline {
+  height: 20px;
+}
+input {
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  width: 40%;
+  margin-top: 1em;
+}
+.logo {
+    max-width: 800px;
+}
+
+.input-container {
+   background-color: #fff;
+   position: relative;
+   display: block;
+   box-sizing: border-box;
+   width: 50%;
+   margin: auto;
+   color: #000;
+}
+
+.response {
+   font-size: 0.5em;
+}
+
+.input-container input, button {
+    background-color: #fff;
+    border: none;
+    box-sizing: border-box;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    line-height: 2;
+    font-size: 0.75em;
+    margin: 0;
+}
+
+.input-container button {
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    padding: 0px 34px 0px 0px;
+    display: flex;
+    font-size: 1em;
+}
+
+#left-footer {
+    float: left;
+}
+#right-footer {
+    float: right;
+}
