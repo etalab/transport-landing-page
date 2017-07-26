@@ -27,10 +27,26 @@ a {
 a:hover {
    text-decoration: underline;
 }
+
+.logo > span {
+    margin-top: 0em;
+    color: #c3d7de;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.logo {
+    margin-bottom: 5em;
+}
+
+.logo img {
+    max-width: 800px;
+}
+
 #content p {
   margin-top: 2em;
   min-height: 100%;
 }
+
 #body {
   padding-bottom:60px; 
 }
@@ -51,9 +67,6 @@ input {
   padding: 1em;
   width: 40%;
   margin-top: 1em;
-}
-.logo {
-    max-width: 800px;
 }
 
 .input-container {
